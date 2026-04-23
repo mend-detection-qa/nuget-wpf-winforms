@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MVVM toolkit: widely used, brings Microsoft.Extensions.* transitives -->
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <!-- WPF Material Design UI: brings MaterialDesignColors and other transitives -->
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+    <!-- Baseline JSON library: no runtime transitives -->
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <!-- DI container: Microsoft.Extensions.* family -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,135 @@
+{
+  "_comment": "Expected dependency tree for nuget-wpf-winforms probe. Fields marked PLACEHOLDER are substituted by the scan runner at comparison time. This probe validates that Mend detects all direct and transitive NuGet packages resolved under the net8.0-windows TFM via packages.lock.json.",
+  "updateType": "OVERRIDE",
+  "type": "UA",
+  "agent": "dotnet",
+  "agentVersion": "PLACEHOLDER",
+  "pluginVersion": "PLACEHOLDER",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "extraProperties": {
+    "contributionsAvailable": "PLACEHOLDER",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "nuget-wpf-winforms",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["nuget"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "UA"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "CommunityToolkit.Mvvm",
+          "version": "8.2.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "packages.lock.json",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "packages.lock.json",
+              "dependencyType": "NUGET",
+              "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+              "children": null
+            },
+            {
+              "groupId": "",
+              "artifactId": "System.ComponentModel.Annotations",
+              "version": "5.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "packages.lock.json",
+              "dependencyType": "NUGET",
+              "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "MaterialDesignThemes",
+          "version": "5.1.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "packages.lock.json",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "MaterialDesignColors",
+              "version": "3.1.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "packages.lock.json",
+              "dependencyType": "NUGET",
+              "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        },
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "packages.lock.json",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.DependencyInjection",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "packages.lock.json",
+          "dependencyType": "NUGET",
+          "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "packages.lock.json",
+              "dependencyType": "NUGET",
+              "dependencyFile": "src/WpfWinFormsProbe/packages.lock.json",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
